@@ -44,3 +44,6 @@ print(nome.title())
 
 nome = 'Luciano Carrafa Benfica'
 print(nome.split())
+
+print(nome[0:7])
+

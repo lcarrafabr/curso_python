@@ -29,5 +29,19 @@ for num in range(5, 11):
 #  Exemplo forma 03
 """
 range(valor_de_inicio, valor_de_parada, passo)
-OBS: valor_de_parada não inclusive (inicio especificado pelo usuário e passo de 1 em 1 e pa)
+OBS: valor_de_parada não inclusive (inicio especificado pelo usuário e passo de 1 em 1 e passo especificado 
+pelo usuário)
 """
+
+for num in range(1, 100, 10):
+    print(num)
+
+
+#  Forma 04 (Igual a 3 mas inversa)
+"""
+range(valor_de_inicio, valor_de_parada, passo)
+OBS: valor_de_parada não inclusive (valor_inicio especificado pelo usuário e passoespecificado pelo usuário)
+"""
+
+for num in range(10, 0, -1):
+    print(num)
